@@ -1,0 +1,242 @@
+nav{
+    width: 200px;
+    height: 100%;
+    background: #45015d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+nav h3{
+    color: white;
+    text-align:center;
+}
+nav a{
+    color: white;
+    display: block;
+    outline: none;
+    padding: 10px 0 10px 15px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all  0.5s;
+}
+nav a:hover{
+    background: white;
+    color: #45015d;
+    transition: all 0.5s;
+}
+main{
+    padding: 80px 40px 0 360px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+.line{
+    background-color: #45015d;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+}
+h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: #45015d;
+}
+.showcase img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.7;
+    transition: all 0.5s;
+    min-width: 300px;
+}
+.showcase img:hover{
+    opacity: 1;
+}
+.showcase div{
+    text-align: center;
+}
+.designers__list{
+    text-align: center;
+}
+.member{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    min-width: 300px;
+}
+.member img{
+    width: 100%;
+    border-radius: 10px;
+}
+.member__info{
+    background: #e7e7e7;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: left;
+}
+.position{
+    color: grey;
+}
+.packages__list{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    background: #e7e7e7;
+    border-radius: 10px;
+    width: 45%;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px;
+    min-width: 300px;
+}
+.basic{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background: #45015d;
+    padding: 26px 0;
+}
+li{
+    padding: 16px 0;
+    border-bottom: 1px grey solid;
+    border-radius: 10px;
+}
+.cost{
+    font-size: 22px;
+}
+.cost span{
+    font-size: 14px;
+    color: grey;
+    display: block;
+}
+ul button{
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 16px;
+    border: none;
+    transition: all 0.5s;
+}
+.basic-btn{
+    background: #45015d;
+    border: 1px #45015d solid;
+}
+.basic-btn:hover{
+    background: transparent;
+    color: #45015d;
+    cursor: pointer;
+}
+.pro{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 26px 0;
+    background: #ff6219;
+}
+.pro-btn{
+    background: #ff6219;
+    border: 1px #ff6219 solid;
+}
+.pro-btn:hover{
+    background: transparent;
+    color: #ff6219;
+    cursor: pointer;
+}
+input, textarea, form button{
+    width: 100%;
+    border: #45015d 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    margin: 0 0 15px 0;
+    box-shadow: 0 2.5px 5px #45015db6;
+    font-size: 16px;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+input:focus, textarea:focus{
+    box-shadow: 0 0 15px #45015d;
+}
+form button{
+    color: white;
+    background: #45015d;
+}
+form button:hover{
+    color: #45015d;
+    background: white;
+    box-shadow: 0 0 15px;
+    cursor: pointer;
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+footer{
+    background: #45015d;
+    color: white;
+    padding: 50px 25px 50px 25px;
+    z-index: 3;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hamburger{
+    width: 50px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 5px 10px #45015db0;
+    background: white;
+    border-radius: 100px;
+    outline: none;
+    padding: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    display: none;
+}
+.hamburger span{
+    position:absolute;
+    width: 40px;
+    height: 2px;
+    background: #45015d;
+    display: block;
+    left: 50%;
+    margin-left: -20px;
+    transition: all 0.5s;
+}
+.hamburger span:nth-child(1){
+    top: 15px;
+}
+.hamburger span:nth-child(2){
+    top: 50%;
+    margin-top: -1px;
+}
+.hamburger span:nth-child(3){
+    bottom: 15px;
+}
+.hamburger_active span:nth-child(1){
+    transform: rotate(-45deg);
+    margin-top: 9px;
+}
+.hamburger_active span:nth-child(2){
+    opacity: 0;
+}
+.hamburger_active span:nth-child(3){
+    transform: rotate(45deg);
+    margin-bottom: 8px;
+}
+
